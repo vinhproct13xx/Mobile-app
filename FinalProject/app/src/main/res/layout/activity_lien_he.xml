@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar
+        app:title="Thông tin liên hệ"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#2196F3"
+        app:titleTextColor="#FDFCFC"
+        android:id="@+id/toolbar_thongtin"> </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/nature">
+        //email
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F5F3F2"
+            android:gravity="center"
+            android:layout_margin="1dp"
+            android:layout_gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_email"
+            android:textSize="20sp"
+            android:text=" Email : cskh@global.com"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:textColor="#2196F3"
+            android:drawableLeft="@drawable/ic_email"/>
+</LinearLayout>
+    // SĐT
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F5F3F2"
+        android:gravity="center"
+        android:layout_margin="1dp"
+        android:layout_gravity="center">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_sdt"
+        android:textSize="20sp"
+        android:text=" Điện thoại : 0378670922"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:textColor="#2196F3"
+        android:drawableLeft="@drawable/ic_call"/>
+
+</LinearLayout>
+    //dia chi
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F5F3F2"
+        android:gravity="center"
+        android:layout_margin="1dp"
+        android:layout_gravity="center">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_diachi"
+        android:textSize="20sp"
+        android:text=" Địa chỉ : khu phố 6, Thủ Đức, Ho Chi Minh City, Vietnam"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:textColor="#2196F3"
+        android:drawableLeft="@drawable/ic_location"/>
+
+</LinearLayout>
+    // map
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F5F3F2"
+        android:gravity="center"
+        android:layout_margin="30dp"
+        android:layout_gravity="center">
+
+    <fragment
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/map"
+        tools:context=".activity.ThongTinActivity"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        xmlns:tools="http://schemas.android.com/tools" xmlns:map="http://schemas.android.com/apk/res-auto"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>

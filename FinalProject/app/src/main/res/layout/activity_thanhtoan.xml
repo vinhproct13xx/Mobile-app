@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="20"
+    android:background="@color/colorWhite">
+    <LinearLayout
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:id="@+id/tv_label"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Thông tin giao hàng"
+        android:textSize="20pt"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        ></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_nguoinhan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="8pt"
+                android:text="Tên người nhận"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/et_nguoinhan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Nhap ten nguoi nhan..."></EditText>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_dienthoai"
+                android:layout_width="140dp"
+                android:textSize="8pt"
+                android:layout_height="wrap_content"
+                android:text="Số điện thoại"
+                android:textAlignment="textStart"
+                ></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/et_dienthoai"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Nhap so dien thoai..."></EditText>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_diachi"
+                android:layout_width="140dp"
+                android:textSize="8pt"
+                android:layout_height="wrap_content"
+                android:text="Địa chỉ người nhận:"
+                android:textAlignment="textStart"
+                ></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/et_diachi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Nhap dia chi..."></EditText>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+
+                android:id="@+id/bt_quaylai"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Quay lại giỏ hàng"></Button>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/bt_tieptuc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Tiếp tục"></Button>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

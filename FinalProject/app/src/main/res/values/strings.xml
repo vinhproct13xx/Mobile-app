@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+    <string name="title_activity_thong_tin">Map</string>
+    <string name="login_title">ĐĂNG NHẬP</string>
+
+    <string name="login_lable1">Tài Khoản</string>
+
+    <string name="login_lable2">Mật Khẩu</string>
+
+    <string name="login_btn">Đăng nhập</string>
+
+    <string name="register_title">TẠO TÀI KHOẢN</string>
+
+    <string name="register_email">Email</string>
+
+    <string name="register_btn">Đăng Ký</string>
+
+    <string name="register_address">Địa chỉ</string>
+
+    <string name="register_phone">Số điện thoại</string>
+
+    <string name="change_info_btn">Thay đổi thông tin</string>
+
+    <string name="change_confirm_pass">Xác nhận mật khẩu</string>
+
+    <string name="change_new_pass">Mật khẩu mới</string>
+
+    <string name="change_old_pass">Mật khẩu cũ</string>
+
+    <string name="btn_confirm">Lưu thay đổi</string>
+</resources>
